@@ -112,5 +112,5 @@ func (h *handlerAuth) CheckAuth(c echo.Context) error {
 }
 
 func (h *handlerAuth) Test(c echo.Context) error {
-	return c.JSON(http.StatusOK, dto.SuccessResult{Code: http.StatusOK, Data: "Berhasil coyyyyy"})
+	return c.JSON(http.StatusOK, dto.SuccessResult{Code: http.StatusOK, Data: "Surya ganteng 😎"})
 }
